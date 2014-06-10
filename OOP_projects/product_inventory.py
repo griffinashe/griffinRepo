@@ -6,6 +6,7 @@ can sum up the inventory.
 """
 
 class Product:
+    # init attributes
     def __init__(self, price, name, qty)
         self.price = price
         self.name = name
