@@ -5,3 +5,10 @@ Then create an inventory class which keeps track of various products and
 can sum up the inventory.
 """
 
+class Product:
+    def __init__(self, price, name, qty)
+        self.price = price
+        self.name = name
+        self.qty = qty
+        
+# to be cont...
