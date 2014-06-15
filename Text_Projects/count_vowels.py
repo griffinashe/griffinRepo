@@ -1,8 +1,9 @@
 #!/usr/bin/env python
 
-#Enter a string and the program counts the number of vowels in the text. 
-#For added complexity have it report a sum of each vowel found.
-
+"""
+Enter a string and the program counts the number of vowels in the text. 
+For added complexity have it report a sum of each vowel found.
+"""
 
 def count_vowels():
     vowels = ['a', 'e', 'i', 'o', 'u'] # "Y" not considered a vowel here. 
