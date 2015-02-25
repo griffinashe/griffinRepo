@@ -28,10 +28,11 @@ def binary(numlist, target):
             low = mid + 1
     return None
          
-list_a = [2, 5, 6, 8, 10, 15, 17, 20, 22, 30, 31]
+if __name__ == "__main__":
+    list_a = [2, 5, 6, 8, 10, 15, 17, 20, 22, 30, 31]
 
-# some tests
-print binary(list_a, 22)
-print binary(list_a, 6)
-print binary(list_a, 55)
+    # some tests
+    print binary(list_a, 22)
+    print binary(list_a, 6)
+    print binary(list_a, 55)
    
