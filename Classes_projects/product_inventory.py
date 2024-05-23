@@ -19,3 +19,5 @@ class Inventory:
 
     def sum_inventory(self):
         return sum(product.price * product.quantity for product in self.products.values())
+
+# Placeholders for testing
